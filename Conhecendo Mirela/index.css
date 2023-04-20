@@ -1,0 +1,40 @@
+body {
+  background-image: url(img/png-clipart-heart-desktop-heart-s-background-photography-stockxchng.png);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+header {
+  background-color: pink;
+  }
+  nav {
+    position: absolute;
+    top:10px;
+    right: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;    
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; 
+    }
+    
+    .imagem {
+      display: inline-block;
+      width: 50%; /* Define a largura das imagens, ajuste conforme necessário */
+      vertical-align: top; /* Alinha as imagens no topo, opcional */
+    }
